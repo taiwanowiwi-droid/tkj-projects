@@ -37,8 +37,7 @@ print("Motivasi          :", motivasi)
 print("================================")
 print("Terus belajar dan jangan menyerah!")
 print("Salam Anak TKJ! 💻")
-print("================================")
- 
+print("================================
 # =====================================
 #       PROGRAM HITUNG NILAI - TKJ
 # =====================================
