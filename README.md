@@ -38,3 +38,33 @@ print("================================")
 print("Terus belajar dan jangan menyerah!")
 print("Salam Anak TKJ! 💻")
 print("================================")
+
+# =====================================
+#       PROGRAM HITUNG NILAI - TKJ
+# =====================================
+
+print("================================")
+print("       PROGRAM HITUNG NILAI")
+print("================================")
+
+nama = input("Masukkan nama       : ")
+nilai_tugas = float(input("Nilai tugas         : "))
+nilai_ulangan = float(input("Nilai ulangan       : "))
+nilai_praktek = float(input("Nilai praktek       : "))
+
+rata_rata = (nilai_tugas + nilai_ulangan + nilai_praktek) / 3
+
+print("\n================================")
+print("       HASIL NILAI")
+print("================================")
+print("Nama       :", nama)
+print("Rata-rata  :", round(rata_rata, 2))
+
+if rata_rata >= 75:
+    print("Status     : Lulus")
+    print("Keterangan : Selamat, kamu keren!")
+else:
+    print("Status     : Remedial")
+    print("Keterangan : Tetap semangat belajar!")
+
+print("================================")
