@@ -4,6 +4,8 @@ Kumpulan proyek TKJ (Teknik Komputer dan Jaringan), meliputi pemrograman, jaring
 # =====================================
 #       BIODATA DIRI - TKJ PROJECTS
 #       Program Coding Pertamaku
+#       PROGRAM HITUNG NILAI - TKJ
+#       PROGRAM JAM SEKOLAH - TKJ
 # =====================================
 
 print("================================")
@@ -39,10 +41,6 @@ print("Terus belajar dan jangan menyerah!")
 print("Salam Anak TKJ! 💻")
 print("================================")
 
-# =====================================
-#       PROGRAM HITUNG NILAI - TKJ
-# =====================================
-
 print("================================")
 print("       PROGRAM HITUNG NILAI")
 print("================================")
@@ -68,10 +66,6 @@ else:
     print("Keterangan : Tetap semangat belajar!")
 
 print("================================")
-
-# =====================================
-#       PROGRAM JAM SEKOLAH - TKJ
-# =====================================
 
 print("================================")
 print("       PROGRAM JAM SEKOLAH")
