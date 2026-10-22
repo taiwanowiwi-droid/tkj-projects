@@ -68,3 +68,25 @@ else:
     print("Keterangan : Tetap semangat belajar!")
 
 print("================================")
+
+# =====================================
+#       PROGRAM JAM SEKOLAH - TKJ
+# =====================================
+
+print("================================")
+print("       PROGRAM JAM SEKOLAH")
+print("================================")
+
+jam = float(input("Jam berapa kamu sampai sekolah? : "))
+
+if jam <= 6.20:
+    print("Status     : Masih normal")
+    print("Keterangan : Jam masuk kamu masih aman.")
+elif jam < 7.00:
+    print("Status     : Masih normal")
+    print("Keterangan : Kamu masih dalam batas toleransi.")
+else:
+    print("Status     : Kamu telat")
+    print("Keterangan : Siap di hukum! 🚨")
+
+print("================================")
