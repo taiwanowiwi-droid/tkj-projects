@@ -6,6 +6,7 @@ Kumpulan proyek TKJ (Teknik Komputer dan Jaringan), meliputi pemrograman, jaring
 #       Program Coding Pertamaku
 #       PROGRAM HITUNG NILAI - TKJ
 #       PROGRAM JAM SEKOLAH - TKJ
+#       PROGRAM MAPEL FAVORIT - TKJ
 # =====================================
 
 print("================================")
@@ -39,6 +40,46 @@ print("Motivasi          :", motivasi)
 print("================================")
 print("Terus belajar dan jangan menyerah!")
 print("Salam Anak TKJ! 💻")
+print("================================")
+
+print("================================")
+print("       PROGRAM MAPEL FAVORIT")
+print("================================")
+
+mapel_favorit = input("Kamu suka belajar mapel apa? : ")
+print("Mapel yang kamu suka adalah:", mapel_favorit)
+
+print("\nPilih mapel SMK favorit kamu:")
+print("1. Bahasa Inggris")
+print("2. Bahasa Jepang")
+print("3. AIN")
+
+pilihan = input("Masukkan pilihan (1/2/3): ")
+
+if pilihan == "1":
+    mapel_smk = "Bahasa Inggris"
+elif pilihan == "2":
+    mapel_smk = "Bahasa Jepang"
+elif pilihan == "3":
+    mapel_smk = "AIN"
+else:
+    mapel_smk = "Belum memilih mapel"
+
+print("\n================================")
+print("       HASIL MAPEL FAVORIT")
+print("================================")
+print("Mapel favoritmu     :", mapel_favorit)
+print("Mapel SMK favorit   :", mapel_smk)
+
+if mapel_smk == "Bahasa Inggris":
+    print("Keterangan          : Mantap! Bahasa Inggris itu penting untuk masa depan.")
+elif mapel_smk == "Bahasa Jepang":
+    print("Keterangan          : Hebat! Bahasa Jepang membuka banyak peluang.")
+elif mapel_smk == "AIN":
+    print("Keterangan          : Keren! AIN adalah bidang masa depan yang menarik.")
+else:
+    print("Keterangan          : Tetap semangat belajar semua mapel!")
+
 print("================================")
 
 print("================================")
